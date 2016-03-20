@@ -1,0 +1,26 @@
+{
+  "generator-m-ionic": {
+    "answers": {
+      "appName": "HelpWord",
+      "appId": "com.starwar.project",
+      "ionicCss": true,
+      "bowerPackages": [
+        "angular-dynamic-locale#~0.1.27",
+        "angular-translate#~2.10.0",
+        "angular-translate-loader-static-files#~2.10.0",
+        "localforage#~1.4.0"
+      ],
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "plugins": [
+        "cordova-plugin-device"
+      ],
+      "appModule": "HelpWord",
+      "ecosystems": [
+        "appmobi"
+      ]
+    }
+  }
+}
