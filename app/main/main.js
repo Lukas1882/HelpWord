@@ -1,22 +1,19 @@
 'use strict';
-angular.module('main', [
-  'ionic',
-  'ngCordova',
-  'ui.router',
-  // TODO: load other modules selected during generation
-])
-.config(function ($stateProvider, $urlRouterProvider) {
+angular.module('main', ['ionic', 'ngCordova', 'ui.router',
+    // TODO: load other modules selected during generation
+  ])
+  .config(function ($stateProvider, $urlRouterProvider) {
 
-  // ROUTING with ui.router
-  $urlRouterProvider.otherwise('/main/list');
-  $stateProvider
+    // ROUTING with ui.router
+    $urlRouterProvider.otherwise('/main/list');
+    $stateProvider
     // this state is placed in the <ion-nav-view> in the index.html
-    .state('main', {
-      url: '/main',
-      abstract: true,
-      templateUrl: 'main/templates/menu.html',
-      controller: 'MenuCtrl as menu'
-    })
+      .state('main', {
+        url: '/main',
+        abstract: true,
+        templateUrl: 'main/templates/menu.html',
+        controller: 'MenuCtrl as menu'
+      })
       .state('main.list', {
         url: '/list',
         views: {
@@ -43,5 +40,14 @@ angular.module('main', [
             controller: 'DebugCtrl as ctrl'
           }
         }
+      })
+      .state('main.test', {
+        url: '/test',
+        views: {
+          'pageContent': {
+            templateUrl: 'main/templates/test.html',
+            controller: 'DebugCtrl as ctrl'
+          }
+        }
       });
-});
+  });
