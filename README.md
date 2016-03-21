@@ -1,6 +1,12 @@
 # HelpWord
-This project was generated with Generator-M-Ionic v1.7.0. For more info visit the [repository](https://github.com/mwaylabs/generator-m-ionic) or check out the README below.
+This project is generated with Generator-M-Ionic v1.7.0. For more info visit the [repository](https://github.com/mwaylabs/generator-m-ionic) or check out the README below.
 
+# Introduction
+[Ionic](http://ionic.io/)
+ ( or [Cordova](https://cordova.apache.org/) ) is a Hybird APP framework with AnjularJS and HTML. Since I am a full-stack developer, It can save me more time to build a mobile app rather then to learn IOS or Android from totally new. What is more, in my opinion, Javascript is the future language with HTML5, and time is limited to learn new tech stacks.
+ 
+ This is a basic Hybird Mobile APP, with very limited functions. I will start from the basic Yeo starter project to build my own.
+ 
 # Generator-M-Ionic v1.7.0
 
 [![NPM version](http://img.shields.io/npm/v/generator-m-ionic.svg?style=flat-square)][npm-url]
@@ -21,11 +27,8 @@ Development:
 [![Dev Dependency Status](http://img.shields.io/david/mwaylabs/generator-m-ionic/dev.svg?style=flat-square)](https://david-dm.org/mwaylabs/generator-m-ionic/dev)
 
 
-## Why you need it
-> Build mobile Cordova/PhoneGap apps quickly with the tools you love:
-Yeoman, Gulp, Bower, AngularJS, Ionic & of course Cordova. All in one sexy generator.
 
-### What's in the box
+### What's included in the projects
 
 <p align="center">
   <a href="http://yeoman.io/" target="_blank" alt="yeoman" title="yeoman">
@@ -62,69 +65,9 @@ Yeoman, Gulp, Bower, AngularJS, Ionic & of course Cordova. All in one sexy gener
   </a>
 </p>
 
-## Introduction
-- More on: [Why you need it](https://github.com/mwaylabs/generator-m-ionic/tree/master/docs/intro/why_you_need_it.md)
-- More on: [What's in the box](https://github.com/mwaylabs/generator-m-ionic/tree/master/docs/intro/whats_in_the_box.md)
-
-## Quick Start
-- [Quick Start](https://github.com/mwaylabs/generator-m-ionic/tree/master/docs/intro/quick_start.md) for the experienced developer.
-- [Try the demo](https://github.com/mwaylabs/generator-m-ionic-demo). Get a quick impression by cloning the sample project generated with the latest version of Generator-M-Ionic.
-
-## Get started
-- [Installation and Prerequisites](https://github.com/mwaylabs/generator-m-ionic/tree/master/docs/start/installation_prerequisites.md)
-- [Development Introduction](https://github.com/mwaylabs/generator-m-ionic/tree/master/docs/start/development_intro.md)
-- [File structure](https://github.com/mwaylabs/generator-m-ionic/tree/master/docs/start/file_structure.md)
-
-## Guides
-
-**Generation**
-- Using Ionic's [CSS or SASS](https://github.com/mwaylabs/generator-m-ionic/tree/master/docs/guides/ionic_css_or_sass.md)?
-- [Sub-generators](https://github.com/mwaylabs/generator-m-ionic/tree/master/docs/guides/sub_generators.md) for adding new components.
-
-**App Development**
-- [Developing on Windows](https://github.com/mwaylabs/generator-m-ionic/tree/master/docs/guides/windows.md), what you need to know.
-- [Git integration](https://github.com/mwaylabs/generator-m-ionic/tree/master/docs/guides/git_integration.md), see how it's done.
-- [SASS integration](https://github.com/mwaylabs/generator-m-ionic/tree/master/docs/guides/sass_integration.md) in our module concept.
-- [Bower Component Usage](https://github.com/mwaylabs/generator-m-ionic/tree/master/docs/guides/bower_component_usage.md) in our module concept.
-- [CORS & Proxying](https://github.com/mwaylabs/generator-m-ionic/tree/master/docs/guides/cors_proxy.md), how to cope with CORS issues.
-- [Gulp defaults](https://github.com/mwaylabs/generator-m-ionic/tree/master/docs/guides/gulp_defaults.md), spare power users some tedious typing on the command line.
-
-**Quality**
-- [ESLint](https://github.com/mwaylabs/generator-m-ionic/tree/master/docs/guides/eslint.md) code style checks and setting up your IDE/Editor.
-- [Testing](https://github.com/mwaylabs/generator-m-ionic/tree/master/docs/guides/testing.md) with our testing workflows.
-
-**Continuous Integration and Delivery**
-- [App Icons and splash screens](https://github.com/mwaylabs/generator-m-ionic/tree/master/docs/guides/icons_splash_screens.md), a simple setup or different sets for different builds - all is possible.
-- [Use Environments](https://github.com/mwaylabs/generator-m-ionic/tree/master/docs/guides/environments.md) manage different API Endpoints and much more with just a single parameter.
-- [Build Vars](https://github.com/mwaylabs/generator-m-ionic/tree/master/docs/guides/build_vars.md), inject vars into your app at build time.
-- [Programmatically change the `config.xml`](https://github.com/mwaylabs/generator-m-ionic/tree/master/docs/guides/programmatically_change_configxml.md), an essential part for a successful continuous integration setup. Add environments and build vars for a full blown continuous integration use case!
-
-**Ecosystems**
-- [Appmobi](https://github.com/mwaylabs/generator-m-ionic/tree/master/docs/ecosystems/appmobi.md) - Secure Mobile Development Platform
-
-## Generator Insights
-We've published 3 blog articles on our company blog delivering deep insights into the why and how of the generator:
-- September 2015: [Generator-M-Ionic and the search for the holy grail](http://blog.mwaysolutions.com/2015/09/21/generator-m-ionic-and-the-search-for-the-holy-grail/)
-  - rather **technical comparison** between the generator and similar tools as well as technical insights to the **decisions and motivation** behind the generator
-- September 2015: [Generator-M-Ionic: HTML5 mobile app development evolved](http://blog.mwaysolutions.com/2015/09/10/generator-m-ionic-html5-mobile-app-development-evolved/)
-    - provides insight to the **technology choices and ecosystem** and the **benefits of using the generator**
-- March 2015: [Generator-M: the state of HTML5 mobile app development at M-Way](http://blog.mwaysolutions.com/2015/03/26/generator-m-the-state-of-html5-mobile-app-development-at-m-way/)
-  - the **origins** of the generator development and **company strategy**
-
-
-## Questions, Issues? Talk to us!
-Do the following:
- 1. check out our [FAQ](https://github.com/mwaylabs/generator-m-ionic/tree/master/docs/contribute/faq.md) and [issues](https://github.com/mwaylabs/generator-m-ionic/issues) see if there already is a solution or answer to that matter.
- 2. [![Join the chat at https://gitter.im/mwaylabs/generator-m-ionic](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/mwaylabs/generator-m-ionic?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)  ask other developers and our core team on [gitter](https://gitter.im/mwaylabs/generator-m-ionic) if you're not sure how to proceed.
- 3. If all fails create a [new issue](https://github.com/mwaylabs/generator-m-ionic/issues/new).
-- **Important**: we and others can help you a lot quicker if you provide a sample repo that we can clone. With step by step instructions on how to reproduce your error.
-
-## Want to contribute?
-Start by reading our:
-
-1. [Mission Statement](https://github.com/mwaylabs/generator-m-ionic/tree/master/docs/contribute/mission_statement.md)
-2. [Contribution Guide](https://github.com/mwaylabs/generator-m-ionic/tree/master/docs/contribute/contribution_guide.md)
-
-
+## About the Yeo Generator
+[Yeoman](http://yeoman.io/) is used in this project, you can find more detail in this generator, [m-ionic](https://github.com/mwaylabs/generator-m-ionic)
 ## License
-Code licensed under MIT. Docs under Apache 2. PhoneGap is a trademark of Adobe.
+Code licensed under MIT. PhoneGap is a trademark of Adobe.
+ 
+ 
